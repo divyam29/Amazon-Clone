@@ -5,14 +5,14 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <>
-    <Header />
+    <div className="bg-neutral-300 h-[300vh]">
+      <Header />
       <Routes>
         <Route exact path="/" element={
-          <Home/>
+          <Home />
         } />
       </Routes>
-    </>
+    </div>
   );
 }
 
